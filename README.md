@@ -10,17 +10,9 @@ In the project directory, you can run:
 
 Runs the app in development mode at [http://localhost:3000](http://localhost:3000). The page reloads on changes.
 
-### `npm test`
-
-Launches the test runner in interactive watch mode.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder. The build is optimized for the best performance.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 ## Implemented Features
 
@@ -31,10 +23,6 @@ Builds the app for production to the `build` folder. The build is optimized for 
 - **Event List:** View your events with a user-friendly interface. The events are sorted chronologically based on their creation or scheduled date.
 
 - **Number of Events to Show:** Adjust the number of events displayed using a numeric input.
-
-- **Toggle between In Coming and Completed Events:** Switch between in-coming and completed events using a toggle button.
-
-- **Styling:** The app features a stylish and responsive design for an enhanced user experience. Icons from `react-icons` are used for visual elements.
 
 ## Custom Styling
 
