@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.events-wrapper {
+    background: #353434;
+    padding: 2%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px rgb(27, 27, 27);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.events-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.event-input-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.event-input-item label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.event-input-item input {
+    padding: 8px;
+    border: none;
+    width: 250px;
+}
+
+.event-input-item input:focus {
+    outline: 2px solid rgb(230, 119, 0);
+}
+
+.primaryBtn {
+    background-color: rgb(230, 119, 0);
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin-top: 25px;
+    padding: 10px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.primaryBtn:hover {
+    background-color: rgb(230, 119, 0);
+}
+
+.secondaryBtn {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin-top: 25px;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+
+}
+
+.active {
+    background-color: rgb(230, 119, 0);
+    ;
+
+}
+
+.event-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-area {
+    margin-bottom: 15px;
+
+}
+
+.event-list-item {
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 5px rgb(31, 30, 30);
+}
+
+.event-list-item h3 {
+    font-size: 25px;
+    color: rgb(230, 119, 0);
+    font-weight: bold;
+    margin: 0px;
+}
+
+.event-list-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgb(179, 178, 178);
+
+}
+
+.icon {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: red;
+}
+
+.check-icon {
+    font-size: 35px;
+    margin-left: 10px;
+    color: rgb(230, 119, 0);
+}
+
+.check-icon:hover {
+    color: rgb(230, 119, 0)
 }
